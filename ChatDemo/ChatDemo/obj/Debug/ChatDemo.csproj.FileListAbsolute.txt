@@ -1,0 +1,10 @@
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\bin\Debug\ChatDemo.exe.config
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\bin\Debug\ChatDemo.exe
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\bin\Debug\ChatDemo.pdb
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.csprojAssemblyReference.cache
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.MainFrm.resources
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.Properties.Resources.resources
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.csproj.GenerateResource.cache
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.csproj.CoreCompileInputs.cache
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.exe
+C:\LearningDev\LearningDocument\ChatDemo\ChatDemo\obj\Debug\ChatDemo.pdb
