@@ -19,10 +19,7 @@ namespace ChatClient
         {
             InitializeComponent();
         }
-
-
         public Socket ClientSocket { get; set; }
-
         /// <summary>
         ///  链接
         /// </summary>
@@ -82,12 +79,50 @@ namespace ChatClient
                     StopContnet();
                     return;
                 }
-                //接收消息写入文本框
-                var str = Encoding.Default.GetString(data, 0, len);
-                AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {str}");
+
+                //判断头部字节  区别发送的类型   :  1字符串   2闪屏   3文件
+                switch (data[0])
+                {
+                    case 1:            //接收消息写入文本框            
+                        var str = ProcessReceiveString(data);
+                        AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {str}");
+                        break;
+                    case 2:          //接收闪屏
+                        Shake();
+                        break;
+                    case 3:
+                        break;
+                }
+
             }
         }
 
+        /// <summary>
+        /// 闪屏调用
+        /// </summary>
+        public void Shake()
+        {
+            //原始窗体位置
+            Point oldLocation = this.Location;
+            Random r = new Random();
+            this.Invoke(new Action(() =>
+            {
+                for (int i = 0; i < 20; i++)
+                {
+                    this.Location = new Point(r.Next(oldLocation.X - 5, oldLocation.X + 5), r.Next(oldLocation.Y - 5, oldLocation.Y + 5));
+                    Thread.Sleep(20);
+                    this.Location = oldLocation;
+                }
+            })); 
+        }
+        /// <summary>
+        /// 处理接收到的字符串
+        /// </summary>
+        private string ProcessReceiveString(byte[] data)
+        {
+            //把实际的字符串拿到 
+            return Encoding.Default.GetString(data, 1, data.Length - 1);
+        }
         /// <summary>
         /// 关闭服务链接
         /// </summary>
@@ -141,6 +176,8 @@ namespace ChatClient
             {
                 byte[] data = Encoding.Default.GetBytes(txtSendMsg.Text);
                 ClientSocket.Send(data, data.Length, SocketFlags.None);
+                AppendTextToTxtMsg($"{ClientSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {txtSendMsg.Text}");
+                txtSendMsg.Text = string.Empty;
             }
         }
     }

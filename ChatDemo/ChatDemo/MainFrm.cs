@@ -17,14 +17,12 @@ namespace ChatDemo
     {
         /// <summary>
         /// 客户端socket队列
-        /// </summary>
+        /// <        /summary>
         List<Socket> ClientProxSocketList = new List<Socket>();
-
         public MainFrm()
         {
             InitializeComponent();
         }
-
         /// <summary>
         /// 启动服务
         /// </summary>
@@ -46,7 +44,6 @@ namespace ChatDemo
 
 
         }
-
         public void AcceptClientConnect(object socket)
         {
             var serverSocket = (Socket)socket;
@@ -60,15 +57,14 @@ namespace ChatDemo
 
                 //接收当前链接的客户端消息
                 //proxSocket.Receive();
-                ThreadPool.QueueUserWorkItem(new WaitCallback(ReceveData), proxSocket);
+                ThreadPool.QueueUserWorkItem(new WaitCallback(ReceiveData), proxSocket);
             }
         }
-
         /// <summary>
         /// 接收客户端的消息
         /// </summary>
         /// <param name="socket"></param>
-        public void ReceveData(object socket)
+        public void ReceiveData(object socket)
         {
             var proxSocket = socket as Socket;
             byte[] data = new byte[1024 * 1024];
@@ -93,12 +89,47 @@ namespace ChatDemo
                     StopContnet(proxSocket);
                     return;
                 }
-                //接收消息写入文本框
-                var str = Encoding.Default.GetString(data, 0, len);
-                AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {str}");
+                //判断头部字节  区别发送的类型   :  1字符串   2闪屏   3文件
+                switch (data[0])
+                {
+                    case 1:            //接收消息写入文本框
+                        var str = ProcessReceiveString(data);
+                        AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {str}");
+                        break;
+                    case 2:          //接收闪屏
+                        Shake();
+                        break;
+                    case 3:
+                        break;
+                }
             }
         }
 
+        /// <summary>
+        /// 闪屏调用
+        /// </summary>
+        public void Shake()
+        {
+            //原始窗体位置
+            Point oldLocation = this.Location;
+            Random r = new Random();
+
+            for (int i = 0; i < 20; i++)
+            {
+                this.Location = new Point(r.Next(oldLocation.X - 5, oldLocation.X + 5), r.Next(oldLocation.Y - 5, oldLocation.Y + 5));
+                Thread.Sleep(20);
+                this.Location = oldLocation;
+            }
+        }
+
+        /// <summary>
+        /// 处理接收到的字符串
+        /// </summary>
+        private string ProcessReceiveString(byte[] data)
+        {
+            //把实际的字符串拿到 
+            return Encoding.Default.GetString(data, 1, data.Length - 1);
+        }
         /// <summary>
         /// 文本框添加数据
         /// </summary>
@@ -123,7 +154,6 @@ namespace ChatDemo
                 this.txtAllMsg.Text = string.Format("{0}\r\n{1}", txt, txtAllMsg.Text);
             }
         }
-
         /// <summary>
         /// 发送消息
         /// </summary>
@@ -136,12 +166,16 @@ namespace ChatDemo
                 if (proxSocket.Connected)
                 {
                     byte[] data = Encoding.Default.GetBytes(txtSendMsg.Text);
+                    //对原始的数据加上协议的头部字节
+                    byte[] result = new byte[data.Length + 1];
+                    Buffer.BlockCopy(data, 0, result, 1, data.Length);
+                    //发送
                     proxSocket.Send(data, data.Length, SocketFlags.None);
-
+                    AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} \r\n  {txtSendMsg.Text}");
+                    txtSendMsg.Text = string.Empty;
                 }
             }
         }
-
         /// <summary>
         /// 关闭服务链接
         /// </summary>
@@ -158,6 +192,22 @@ namespace ChatDemo
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        /// <summary>
+        /// 发送闪屏
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnShake_Click(object sender, EventArgs e)
+        {
+            foreach (var proxSocket in ClientProxSocketList)
+            {
+                if (proxSocket.Connected)
+                {
+                    proxSocket.Send(new byte[] { 2 }, SocketFlags.None);
+                }
             }
         }
     }

@@ -36,6 +36,8 @@
             this.txtAllMsg = new System.Windows.Forms.TextBox();
             this.txtSendMsg = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
+            this.btnShake = new System.Windows.Forms.Button();
+            this.btnFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,11 +110,32 @@
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // btnShake
+            // 
+            this.btnShake.Location = new System.Drawing.Point(312, 476);
+            this.btnShake.Name = "btnShake";
+            this.btnShake.Size = new System.Drawing.Size(75, 28);
+            this.btnShake.TabIndex = 8;
+            this.btnShake.Text = "Shake";
+            this.btnShake.UseVisualStyleBackColor = true;
+            this.btnShake.Click += new System.EventHandler(this.btnShake_Click);
+            // 
+            // btnFile
+            // 
+            this.btnFile.Location = new System.Drawing.Point(418, 476);
+            this.btnFile.Name = "btnFile";
+            this.btnFile.Size = new System.Drawing.Size(75, 28);
+            this.btnFile.TabIndex = 9;
+            this.btnFile.Text = "File";
+            this.btnFile.UseVisualStyleBackColor = true;
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 484);
+            this.ClientSize = new System.Drawing.Size(670, 516);
+            this.Controls.Add(this.btnFile);
+            this.Controls.Add(this.btnShake);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtSendMsg);
             this.Controls.Add(this.txtAllMsg);
@@ -138,6 +161,8 @@
         private System.Windows.Forms.TextBox txtAllMsg;
         private System.Windows.Forms.TextBox txtSendMsg;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnShake;
+        private System.Windows.Forms.Button btnFile;
     }
 }
 
