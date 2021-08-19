@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -98,11 +99,34 @@ namespace ChatDemo
                         break;
                     case 2:          //接收闪屏
                         Shake();
+                        AppendTextToTxtMsg($"{proxSocket.RemoteEndPoint.ToString()}  {DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}  发送了一个闪屏");
                         break;
                     case 3:
+                        ProcessRecieveFile(data);
                         break;
                 }
             }
+        }
+
+        /// <summary>
+        /// 处理接受的文件
+        /// </summary>
+        public void ProcessRecieveFile(byte[] data)
+        {
+            this.Invoke(new Action(() =>
+            {
+                using (SaveFileDialog sfd = new SaveFileDialog())
+                {
+                    if (sfd.ShowDialog(this) != DialogResult.OK)
+                    {
+                        return;
+                    }
+                    byte[] fileData = new byte[data.Length - 1];
+                    Buffer.BlockCopy(data, 1, fileData, 0, data.Length - 1);
+                    File.WriteAllBytes(sfd.FileName, fileData);
+                }
+            }));
+
         }
 
         /// <summary>
@@ -113,13 +137,15 @@ namespace ChatDemo
             //原始窗体位置
             Point oldLocation = this.Location;
             Random r = new Random();
-
-            for (int i = 0; i < 20; i++)
+            this.Invoke(new Action(() =>
             {
-                this.Location = new Point(r.Next(oldLocation.X - 5, oldLocation.X + 5), r.Next(oldLocation.Y - 5, oldLocation.Y + 5));
-                Thread.Sleep(20);
-                this.Location = oldLocation;
-            }
+                for (int i = 0; i < 20; i++)
+                {
+                    this.Location = new Point(r.Next(oldLocation.X - 5, oldLocation.X + 5), r.Next(oldLocation.Y - 5, oldLocation.Y + 5));
+                    Thread.Sleep(20);
+                    this.Location = oldLocation;
+                }
+            }));
         }
 
         /// <summary>
@@ -193,8 +219,7 @@ namespace ChatDemo
             {
                 throw;
             }
-        }
-
+        } 
         /// <summary>
         /// 发送闪屏
         /// </summary>
@@ -207,6 +232,34 @@ namespace ChatDemo
                 if (proxSocket.Connected)
                 {
                     proxSocket.Send(new byte[] { 2 }, SocketFlags.None);
+                }
+            }
+        } 
+        /// <summary>
+        /// 发送文件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnFile_Click(object sender, EventArgs e)
+        {
+            foreach (var proxSocket in ClientProxSocketList)
+            {
+                if (!proxSocket.Connected)
+                {
+                    continue;
+                }
+                //把发送的文件读取出
+                using (OpenFileDialog odf = new OpenFileDialog())
+                {
+                    if (odf.ShowDialog() != DialogResult.OK)
+                    {
+                        return;
+                    }
+                    byte[] data = File.ReadAllBytes(odf.FileName);
+                    byte[] result = new byte[data.Length + 1];
+                    result[0] = 3;
+                    Buffer.BlockCopy(data, 0, result, 1, result.Length-1);
+                    proxSocket.Send(result, SocketFlags.None);
                 }
             }
         }

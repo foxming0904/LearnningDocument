@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 33);
+            this.label1.Location = new System.Drawing.Point(60, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 18);
             this.label1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(103, 29);
+            this.txtIP.Location = new System.Drawing.Point(101, 42);
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(164, 28);
             this.txtIP.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(361, 29);
+            this.txtPort.Location = new System.Drawing.Point(359, 42);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(120, 28);
             this.txtPort.TabIndex = 3;
@@ -68,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(309, 33);
+            this.label2.Location = new System.Drawing.Point(307, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 18);
             this.label2.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(543, 30);
+            this.btnStart.Location = new System.Drawing.Point(541, 43);
             this.btnStart.Name = "btnStart";
             this.btnStart.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnStart.Size = new System.Drawing.Size(75, 27);
@@ -87,7 +87,7 @@
             // 
             // txtAllMsg
             // 
-            this.txtAllMsg.Location = new System.Drawing.Point(55, 86);
+            this.txtAllMsg.Location = new System.Drawing.Point(53, 99);
             this.txtAllMsg.Multiline = true;
             this.txtAllMsg.Name = "txtAllMsg";
             this.txtAllMsg.Size = new System.Drawing.Size(563, 318);
@@ -95,14 +95,14 @@
             // 
             // txtSendMsg
             // 
-            this.txtSendMsg.Location = new System.Drawing.Point(55, 431);
+            this.txtSendMsg.Location = new System.Drawing.Point(53, 444);
             this.txtSendMsg.Name = "txtSendMsg";
             this.txtSendMsg.Size = new System.Drawing.Size(438, 28);
             this.txtSendMsg.TabIndex = 6;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(543, 431);
+            this.btnSend.Location = new System.Drawing.Point(541, 444);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 28);
             this.btnSend.TabIndex = 7;
@@ -112,7 +112,7 @@
             // 
             // btnShake
             // 
-            this.btnShake.Location = new System.Drawing.Point(312, 476);
+            this.btnShake.Location = new System.Drawing.Point(310, 489);
             this.btnShake.Name = "btnShake";
             this.btnShake.Size = new System.Drawing.Size(75, 28);
             this.btnShake.TabIndex = 8;
@@ -122,18 +122,19 @@
             // 
             // btnFile
             // 
-            this.btnFile.Location = new System.Drawing.Point(418, 476);
+            this.btnFile.Location = new System.Drawing.Point(416, 489);
             this.btnFile.Name = "btnFile";
             this.btnFile.Size = new System.Drawing.Size(75, 28);
             this.btnFile.TabIndex = 9;
             this.btnFile.Text = "File";
             this.btnFile.UseVisualStyleBackColor = true;
+            this.btnFile.Click += new System.EventHandler(this.btnFile_Click);
             // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 516);
+            this.ClientSize = new System.Drawing.Size(675, 543);
             this.Controls.Add(this.btnFile);
             this.Controls.Add(this.btnShake);
             this.Controls.Add(this.btnSend);
@@ -145,6 +146,7 @@
             this.Controls.Add(this.txtIP);
             this.Controls.Add(this.label1);
             this.Name = "MainFrm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Server";
             this.ResumeLayout(false);
             this.PerformLayout();
