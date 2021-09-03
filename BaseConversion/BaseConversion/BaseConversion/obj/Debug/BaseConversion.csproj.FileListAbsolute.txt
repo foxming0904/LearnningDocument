@@ -1,0 +1,7 @@
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\bin\Debug\BaseConversion.exe.config
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\bin\Debug\BaseConversion.exe
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\bin\Debug\BaseConversion.pdb
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\obj\Debug\BaseConversion.csproj.AssemblyReference.cache
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\obj\Debug\BaseConversion.csproj.CoreCompileInputs.cache
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\obj\Debug\BaseConversion.exe
+C:\MyCode\LearningDocument\BaseConversion\BaseConversion\BaseConversion\obj\Debug\BaseConversion.pdb

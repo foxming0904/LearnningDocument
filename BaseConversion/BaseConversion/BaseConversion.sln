@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseConversion", "BaseConversion\BaseConversion.csproj", "{A60D8BB2-0E49-44E3-88F8-525E7223ED0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60D8BB2-0E49-44E3-88F8-525E7223ED0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60D8BB2-0E49-44E3-88F8-525E7223ED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60D8BB2-0E49-44E3-88F8-525E7223ED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60D8BB2-0E49-44E3-88F8-525E7223ED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CFF305B-675B-4210-821D-1693D6FB0088}
+	EndGlobalSection
+EndGlobal
