@@ -1,0 +1,7 @@
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\bin\Debug\KillNextGame.exe.config
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\bin\Debug\KillNextGame.exe
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\bin\Debug\KillNextGame.pdb
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\obj\Debug\KillNextGame.csproj.AssemblyReference.cache
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\obj\Debug\KillNextGame.csproj.CoreCompileInputs.cache
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\obj\Debug\KillNextGame.exe
+C:\MyCode\LearningDocument\KillNextGame\KillNextGame\obj\Debug\KillNextGame.pdb
