@@ -1,0 +1,7 @@
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\bin\Debug\ReflectioDemo.exe.config
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\bin\Debug\ReflectioDemo.exe
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\bin\Debug\ReflectioDemo.pdb
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\obj\Debug\ReflectioDemo.csproj.AssemblyReference.cache
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\obj\Debug\ReflectioDemo.csproj.CoreCompileInputs.cache
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\obj\Debug\ReflectioDemo.exe
+C:\MyCode\LearningDocument\ReflectioDemo\ReflectioDemo\obj\Debug\ReflectioDemo.pdb

@@ -1,0 +1,7 @@
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\bin\Debug\ReviewSomeCase.exe.config
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\bin\Debug\ReviewSomeCase.exe
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\bin\Debug\ReviewSomeCase.pdb
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\obj\Debug\ReviewSomeCase.csproj.AssemblyReference.cache
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\obj\Debug\ReviewSomeCase.csproj.CoreCompileInputs.cache
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\obj\Debug\ReviewSomeCase.exe
+C:\MyCode\LearningDocument\ReviewSomeCase\ReviewSomeCase\obj\Debug\ReviewSomeCase.pdb
