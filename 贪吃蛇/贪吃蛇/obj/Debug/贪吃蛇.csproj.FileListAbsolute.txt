@@ -1,0 +1,8 @@
+E:\PersonalCode\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.exe.config
+E:\PersonalCode\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.exe
+E:\PersonalCode\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.pdb
+E:\PersonalCode\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.csproj.AssemblyReference.cache
+E:\PersonalCode\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.csproj.CoreCompileInputs.cache
+E:\PersonalCode\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.exe
+E:\PersonalCode\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.pdb

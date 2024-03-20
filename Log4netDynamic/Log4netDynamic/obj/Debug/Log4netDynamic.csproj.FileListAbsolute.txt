@@ -1,0 +1,9 @@
+E:\PersonalCode\Log4netDynamic\EXE\Log4netDynamic.exe.config
+E:\PersonalCode\Log4netDynamic\EXE\Log4netDynamic.exe
+E:\PersonalCode\Log4netDynamic\EXE\Log4netDynamic.pdb
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.csproj.AssemblyReference.cache
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.csproj.CoreCompileInputs.cache
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.csproj.CopyComplete
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.exe
+E:\PersonalCode\Log4netDynamic\Log4netDynamic\obj\Debug\Log4netDynamic.pdb

@@ -1,0 +1,8 @@
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.AssemblyReference.cache
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+E:\PersonalCode\SocketDemo\SocketServer\SocketServer\obj\Debug\SocketServer.pdb

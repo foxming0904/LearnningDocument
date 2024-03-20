@@ -1,0 +1,8 @@
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\bin\Debug\DynamicXmlToObject.exe.config
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\bin\Debug\DynamicXmlToObject.exe
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\bin\Debug\DynamicXmlToObject.pdb
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\obj\Debug\DynamicXmlToObject.csproj.AssemblyReference.cache
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\obj\Debug\DynamicXmlToObject.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\obj\Debug\DynamicXmlToObject.csproj.CoreCompileInputs.cache
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\obj\Debug\DynamicXmlToObject.exe
+E:\PersonalCode\DynamicXmlToObject\DynamicXmlToObject\obj\Debug\DynamicXmlToObject.pdb

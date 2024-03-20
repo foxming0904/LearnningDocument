@@ -1,0 +1,12 @@
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\bin\Debug\XmlToObj.exe.config
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\bin\Debug\XmlToObj.exe
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\bin\Debug\XmlToObj.pdb
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\obj\Debug\XmlToObj.csproj.AssemblyReference.cache
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\obj\Debug\XmlToObj.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\obj\Debug\XmlToObj.csproj.CoreCompileInputs.cache
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\obj\Debug\XmlToObj.exe
+E:\PersonalCode\XmlToObj\XmlToObj\XmlToObj\obj\Debug\XmlToObj.pdb
+E:\PersonalCode\XmlToObj\XmlToObj\EXE\XmlToObj.exe.config
+E:\PersonalCode\XmlToObj\XmlToObj\EXE\XmlToObj.exe
+E:\PersonalCode\XmlToObj\XmlToObj\EXE\XmlToObj.pdb
+E:\PersonalCode\XmlToObj\XmlToObj\EXE\XMLFile1.xml

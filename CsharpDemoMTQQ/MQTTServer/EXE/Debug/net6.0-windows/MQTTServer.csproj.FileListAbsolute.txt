@@ -1,0 +1,7 @@
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.csproj.AssemblyReference.cache
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.frmServer.resources
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.csproj.GenerateResource.cache
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.AssemblyInfoInputs.cache
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.AssemblyInfo.cs
+E:\PersonalCode\CsharpDemoMTQQ\MQTTServer\EXE\Debug\net6.0-windows\MQTTServer.csproj.CoreCompileInputs.cache

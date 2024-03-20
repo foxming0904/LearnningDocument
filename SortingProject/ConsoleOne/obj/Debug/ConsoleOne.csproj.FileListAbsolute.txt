@@ -1,0 +1,8 @@
+E:\PersonalCode\SortingProject\ConsoleOne\bin\Debug\ConsoleOne.exe.config
+E:\PersonalCode\SortingProject\ConsoleOne\bin\Debug\ConsoleOne.exe
+E:\PersonalCode\SortingProject\ConsoleOne\bin\Debug\ConsoleOne.pdb
+E:\PersonalCode\SortingProject\ConsoleOne\obj\Debug\ConsoleOne.csproj.AssemblyReference.cache
+E:\PersonalCode\SortingProject\ConsoleOne\obj\Debug\ConsoleOne.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\SortingProject\ConsoleOne\obj\Debug\ConsoleOne.csproj.CoreCompileInputs.cache
+E:\PersonalCode\SortingProject\ConsoleOne\obj\Debug\ConsoleOne.exe
+E:\PersonalCode\SortingProject\ConsoleOne\obj\Debug\ConsoleOne.pdb

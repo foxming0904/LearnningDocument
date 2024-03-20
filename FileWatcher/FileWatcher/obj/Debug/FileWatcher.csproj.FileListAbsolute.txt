@@ -1,0 +1,15 @@
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.AssemblyReference.cache
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CoreCompileInputs.cache
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\FileWatcher.pdb
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\EPPlus.dll
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\EPPlus.Interfaces.dll
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\EPPlus.System.Drawing.dll
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\EPPlus.xml
+E:\PersonalCode\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CopyComplete
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\Newtonsoft.Json.dll
+E:\PersonalCode\FileWatcher\FileWatcher\bin\Debug\Newtonsoft.Json.xml

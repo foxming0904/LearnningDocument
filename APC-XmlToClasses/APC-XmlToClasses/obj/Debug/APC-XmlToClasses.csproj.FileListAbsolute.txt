@@ -1,0 +1,8 @@
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\bin\Debug\APC-XmlToClasses.exe.config
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\bin\Debug\APC-XmlToClasses.exe
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\bin\Debug\APC-XmlToClasses.pdb
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\obj\Debug\APC-XmlToClasses.csproj.AssemblyReference.cache
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\obj\Debug\APC-XmlToClasses.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\obj\Debug\APC-XmlToClasses.csproj.CoreCompileInputs.cache
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\obj\Debug\APC-XmlToClasses.exe
+E:\PersonalCode\APC-XmlToClasses\APC-XmlToClasses\obj\Debug\APC-XmlToClasses.pdb

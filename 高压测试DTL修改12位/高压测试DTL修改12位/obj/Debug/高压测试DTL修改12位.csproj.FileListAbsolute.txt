@@ -1,0 +1,8 @@
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\bin\Debug\高压测试DTL修改12位.exe.config
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\bin\Debug\高压测试DTL修改12位.exe
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\bin\Debug\高压测试DTL修改12位.pdb
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\obj\Debug\高压测试DTL修改12位.csproj.AssemblyReference.cache
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\obj\Debug\高压测试DTL修改12位.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\obj\Debug\高压测试DTL修改12位.csproj.CoreCompileInputs.cache
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\obj\Debug\高压测试DTL修改12位.exe
+E:\PersonalCode\高压测试DTL修改12位\高压测试DTL修改12位\obj\Debug\高压测试DTL修改12位.pdb

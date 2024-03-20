@@ -1,0 +1,14 @@
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\bin\Debug\FolderAccessTester.exe.config
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\bin\Debug\FolderAccessTester.exe
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\bin\Debug\FolderAccessTester.pdb
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.csproj.AssemblyReference.cache
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.mainForm.resources
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.Properties.Resources.resources
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.csproj.GenerateResource.cache
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.csproj.CoreCompileInputs.cache
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.exe
+E:\PersonalCode\FolderAccessTester\FolderAccessTester\obj\Debug\FolderAccessTester.pdb
+E:\PersonalCode\FolderAccessTester\EXE\FolderAccessTester.exe.config
+E:\PersonalCode\FolderAccessTester\EXE\FolderAccessTester.exe
+E:\PersonalCode\FolderAccessTester\EXE\FolderAccessTester.pdb

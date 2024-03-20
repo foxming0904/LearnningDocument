@@ -1,0 +1,8 @@
+E:\PersonalCode\Random\Random\bin\Debug\Random.exe.config
+E:\PersonalCode\Random\Random\bin\Debug\Random.exe
+E:\PersonalCode\Random\Random\bin\Debug\Random.pdb
+E:\PersonalCode\Random\Random\obj\Debug\RandomProj.csproj.AssemblyReference.cache
+E:\PersonalCode\Random\Random\obj\Debug\RandomProj.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\Random\Random\obj\Debug\RandomProj.csproj.CoreCompileInputs.cache
+E:\PersonalCode\Random\Random\obj\Debug\Random.exe
+E:\PersonalCode\Random\Random\obj\Debug\Random.pdb

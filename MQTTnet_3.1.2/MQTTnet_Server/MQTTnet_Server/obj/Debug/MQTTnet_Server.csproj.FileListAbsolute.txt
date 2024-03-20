@@ -1,0 +1,13 @@
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\bin\Debug\MQTTnet_Server.exe.config
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\bin\Debug\MQTTnet_Server.exe
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\bin\Debug\MQTTnet_Server.pdb
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\bin\Debug\MQTTnet.dll
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.csproj.AssemblyReference.cache
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.csproj.SuggestedBindingRedirects.cache
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.MQTTnetForm.resources
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.Properties.Resources.resources
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.csproj.GenerateResource.cache
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.csproj.CoreCompileInputs.cache
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.csproj.CopyComplete
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.exe
+E:\PersonalCode\MQTTnet_3.1.2\MQTTnet_Server\MQTTnet_Server\obj\Debug\MQTTnet_Server.pdb
